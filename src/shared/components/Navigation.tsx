@@ -3,7 +3,7 @@ import { ROUTE_MAP } from "@app/shared/constants";
 
 export default function Navigation() {
   return (
-    <nav className="w-[250px] border-r border-r-[#ccc] py-[20px]">
+    <nav className="w-[250px] flex-shrink-0 border-r border-r-[#ccc] py-[20px]">
       <ul>
         {Object.entries(ROUTE_MAP).map(([name, path]) => (
           <li key={name} className="text-center h-[40px] hover:bg-slate-300">

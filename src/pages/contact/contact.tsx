@@ -1,4 +1,4 @@
-import { ChristmasImages, Paragraphs, SvgImages } from "@app/pages";
+import { ChristmasImages, Paragraphs, SvgImages } from "@app/pages/home";
 
 export default function Contact() {
   return (

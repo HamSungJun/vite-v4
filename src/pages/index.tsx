@@ -1,6 +1,6 @@
-import { ReactComponent as Drink } from "@public/assets/images/drink.svg";
-import { ReactComponent as Santa } from "@public/assets/images/santa.svg";
-import { ReactComponent as Yacht } from "@public/assets/images/yacht.svg";
+import { ReactComponent as Drink } from "@app/assets/images/drink.svg";
+import { ReactComponent as Santa } from "@app/assets/images/santa.svg";
+import { ReactComponent as Yacht } from "@app/assets/images/yacht.svg";
 
 export default function Home() {
   return (
